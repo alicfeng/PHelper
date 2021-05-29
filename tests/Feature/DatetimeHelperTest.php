@@ -13,6 +13,6 @@ class DatetimeHelperTest extends TestCase
 {
     public function testMsectime()
     {
-        $this->assertIsInt(DatetimeHelper::msectime());
+        $this->assertTrue(is_int(DatetimeHelper::msectime()));
     }
 }
