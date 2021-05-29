@@ -9,8 +9,8 @@
     集成程序常用而底层不具备的函数助手类
 </p>
 <p align="center">
-    <a href="https://travis-ci.com/github/alicfeng/helper">
-        <img src="https://travis-ci.com/alicfeng/helper.svg?branch=master" alt="Build Status">
+    <a href="https://travis-ci.com/github/alicfeng/PHelper">
+        <img src="https://travis-ci.com/alicfeng/PHelper.svg?branch=master" alt="Build Status">
     </a>
     <a href="https://packagist.org/packages/alicfeng/helper">
         <img src="https://poser.pugx.org/alicfeng/helper/v/stable.svg" alt="Latest Stable Version">
