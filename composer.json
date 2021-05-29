@@ -1,0 +1,40 @@
+{
+  "name": "alicfeng/helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "alicfeng",
+      "email": "a@samego.com"
+    }
+  ],
+  "description": "The PHP Helper Class",
+  "keywords": [
+    "php",
+    "helper"
+  ],
+  "require": {
+    "php": "^7.0|^8.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.4.2",
+    "nunomaduro/collision": "^5.0",
+    "friendsofphp/php-cs-fixer": "^2.18",
+    "phpunit/phpunit": "^9.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samego\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "php-cs": [
+      "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix src",
+      "vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix tests"
+    ]
+  }
+}
